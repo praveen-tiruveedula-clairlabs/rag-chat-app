@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
 from langchain_classic.chains.retrieval_qa.base import RetrievalQA
 from langchain_core.prompts import PromptTemplate
@@ -14,7 +14,7 @@ from langchain_core.prompts import PromptTemplate
 VECTOR_DB_PATH = "vector_db"
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
-GROQ_MODEL = "llama3-8b-8192"
+GROQ_MODEL = "llama-3.1-8b-instant"
 
 
 def get_rag_chain():
