@@ -1,0 +1,5 @@
+{
+  "title": "Sample JSON for RAG",
+  "description": "Sample content for testing document ingestion.",
+  "content": "The RAG chat application indexes HTML, PDF, and JSON files. After running ingest.py, you can ask questions about your documents in the Streamlit chat interface."
+}

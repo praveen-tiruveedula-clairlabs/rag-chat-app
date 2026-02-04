@@ -1,0 +1,15 @@
+# RAG Chat App dependencies
+# Python 3.9+ recommended
+
+python-dotenv>=1.0.0
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-groq>=0.1.0
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.0
+streamlit>=1.28.0
+pypdf>=3.0.0
+unstructured>=0.10.0
+jsonlines>=4.0.0
+beautifulsoup4>=4.12.0
+jq>=1.6.0
